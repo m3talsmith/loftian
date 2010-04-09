@@ -12,6 +12,7 @@ Rails::Initializer.run do |config|
   config.gem 'cucumber',        :lib => false
   config.gem 'cucumber-rails',  :lib => false
   config.gem 'capybara'
+  config.gem 'database_cleaner'
   
   # Set Time.zone default to the specified zone and make Active Record auto-convert to this zone.
   # Run "rake -D time" for a list of tasks for finding time zone names.
