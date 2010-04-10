@@ -1,0 +1,9 @@
+Feature: Allow users to connect through facebook
+
+  As a registered or unregistered user
+  I would like to use facebook connect
+  So that I don't have to register a new user in order to use this site
+  
+  Scenario: Register and Login
+    Given an email address of "joe@example.com"
+    And a password of "12345678"
